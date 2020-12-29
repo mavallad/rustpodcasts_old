@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS episodes (
     id CHARACTER(36) PRIMARY KEY NOT NULL,
     id_serie CHARACTER(36),
-    podcast_title VARCHAR(80) NOT NULL,
+    serie_title VARCHAR(80) NOT NULL,
     title VARCHAR(80) NOT NULL,
     description TEXT,
     interviewed TEXT,

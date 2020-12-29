@@ -2,7 +2,7 @@ table! {
     episodes (id) {
         id -> Text,
         id_serie -> Nullable<Text>,
-        podcast_title -> Text,
+        serie_title -> Text,
         title -> Text,
         description -> Nullable<Text>,
         interviewed -> Nullable<Text>,
