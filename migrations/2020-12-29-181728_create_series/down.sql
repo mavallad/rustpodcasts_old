@@ -1,0 +1,2 @@
+DROP TRIGGER IF EXISTS SeriesUpdateTimestamps;
+DROP TABLE IF EXISTS series;
