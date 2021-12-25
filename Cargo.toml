@@ -8,10 +8,15 @@ authors = ["mavallad"]
 
 [dependencies]
 #Actix web framework and run-time
-actix-web = "3.3.0"
-actix-rt = "2.2.0"
+actix-web = "3.3.3"
+actix-rt = "2.3.0"
 
 # Data serialization library
-serde = { version = "1.0.130", features = ["derive"] }
+serde = { version = "1.0.132", features = ["derive"] }
 # Other utilities
 chrono = {version = "0.4.19", features = ["serde"]}
+
+#Environment variable access libraries
+dotenv = "0.15.0"
+#Postgres access library
+sqlx = {version = "0.5.9", default_features = false, features = ["postgres","runtime-tokio","macros","chrono"]}
